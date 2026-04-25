@@ -1,5 +1,5 @@
 
-mport type { VercelRequest, VercelResponse } from "@vercel/node";
+import type { VercelRequest, VercelResponse } from "@vercel/node";
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
   const q = req.query.q as string | undefined;
