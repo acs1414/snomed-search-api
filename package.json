@@ -1,4 +1,6 @@
 
 {
-  "name": "snomed-search-api"
+  "name": "snomed-search-api",
+  "private": true
 }
+
